@@ -1,0 +1,25 @@
+{% extends 'core/base.html' %}  
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background%}{% load static %}{% static 'core/img/aboutd.jpg' %}{% endblock %}
+
+{% block headers %}
+      <h1>Acerca de</h1>
+      <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+      <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatard2.png' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Diego</h2>   
+          <p>NacidoMi nombre es Diego Armando Zambrano Rivas, nací en Portoviejo el 3 de julio del 2000 tengo 21 años de edad, vivo en Santa Ana, soy estudiante de la asignatura de DESARROLLO DE SISTEMAS DE INFORMACION, impartida por el docente Ing. José Párraga Valle, en la Universidad Técnica de Manabí. Soy un joven con muchas aspiraciones en la vida, me gusta mucho el Futbol, pero sobre todo me gusta aprender y poder superarme día con día. Tengo metas como todo joven a mi edad, y una de ellas es aprobar la asignatura y poder llegar lejos en mi vida estudiantil.  </p>
+          <p>Dicho de otra manera, puedo decir que entre mis objetivos o metas a corto plazo están aprobar la asignatura de DESARROLLO DE SISTEMAS DE INFORMACION y por consiguiente el semestre; y entre mis metas a largo plazo están culminar mis estudios y así obtener mi título de Ingeniero en Sistemas Informáticos.</p>
+        </div>
+      </div>  
+    </div>
+{% endblock %}
